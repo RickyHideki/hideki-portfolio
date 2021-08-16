@@ -1,0 +1,6 @@
+.texto-titulo {
+    color: var(--texto-cor);
+    font-family: var(--texto-titulo-font);
+    font-size: var(--texto-titulo-tamanho);
+    font-weight: var(--texto-titulo-peso-destaque);
+}

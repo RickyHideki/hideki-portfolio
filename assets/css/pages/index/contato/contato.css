@@ -1,0 +1,15 @@
+@media screen and (min-width: 0) {
+    .contato {
+        text-align: center;
+    }
+    
+    .contato__texto--texto {
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .contato__textos {
+        width: 850px;
+    } 
+}

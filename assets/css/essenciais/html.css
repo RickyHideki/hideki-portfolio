@@ -1,0 +1,71 @@
+    /* Fontes */
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Source+Code+Pro:wght@200;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+    /* CSSs importantes */
+    @import url('reset.css');
+    
+    /* CSSs importantes (componentes) */
+    @import url('componentes/background.css');
+    @import url('componentes/texto-titulo.css');
+    @import url('componentes/texto-normal.css');
+    @import url('componentes/header.css');
+    @import url('componentes/botao/botao__dentro.css');
+    @import url('componentes/botao/botao__fora.css');
+    @import url('componentes/centralizar-item.css');
+    
+
+@media screen and (min-width: 0) {
+    :root {
+        --background: -webkit-linear-gradient(#9a1fff, #28005C 60%);
+        --background-segundario: -webkit-linear-gradient(#28005C 60%, #9a1fff);
+        --background-complementar: rgb(255, 255, 255);
+        
+        --active: #28005C;
+    
+        /*#660569*/
+        
+        --texto-cor: var(--background-complementar);
+        --texto-cor-header: var(--background);
+        --texto-cor-segundaria: var(--background-complementar);
+
+        --texto-cor-selecionado: #a3a3a3;
+        --texto-cor-selecionado-segundaria: #71099e;
+    
+        
+        --texto-titulo-font: 'Montserrat', sans-serif;
+    
+        --texto-titulo-peso-destaque: 500;
+        --texto-titulo-peso-subtitulo: 300;
+    
+        --texto-titulo-tamanho: 2rem;
+    
+    
+        --texto-normal-font: 'Source Code Pro', monospace;
+    
+        --texto-normal-peso-destaque: 400;
+        --texto-normal-peso-normal: 200;
+    
+        --texto-normal-tamanho: 1.25rem;
+
+        --botao-cor: -webkit-linear-gradient(145deg, #9a1fff, #28005C);
+        --botao-cor-pressionado: -webkit-linear-gradient(145deg, #28005C, #9a1fff)
+
+    } 
+}
+
+@media screen and (min-width: 1080px) {
+    :root {
+        --texto-titulo-tamanho: 3.5rem;
+
+        --texto-normal-tamanho: 2rem;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    :root {
+        --texto-titulo-tamanho: 5rem;
+
+        --texto-normal-tamanho: 2.5rem;
+    }
+}

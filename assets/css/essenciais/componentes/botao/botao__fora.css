@@ -1,0 +1,25 @@
+@media screen and (min-width: 0){
+    .botao__fora {
+        width: 150px;
+        height: 50px;
+        background: var(--botao-cor);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .botao__fora {
+        width: 275px;
+        height: 75px;
+    }
+
+    .botao__fora:hover{
+        transition: .5s;
+        background: var(--botao-cor-pressionado);
+        width: 285px;
+        height: 80px;
+    }
+}

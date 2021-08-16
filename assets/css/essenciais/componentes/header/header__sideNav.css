@@ -1,0 +1,40 @@
+@media screen and (min-width: 0) {     
+    .header__sideNav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: var(--background-complementar);
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: .5s;
+    }
+
+    .header__link{
+        padding: 8px;
+        text-decoration: none;
+        font-size: var(--texto-normal-tamanho);
+        background: var(--texto-cor-header);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: block;
+        transition: 0.3s;
+
+        margin-left: calc(32px - 8px);
+
+        width: 160px;
+
+        font-size: 35px;
+    }
+
+    .header__item .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+}

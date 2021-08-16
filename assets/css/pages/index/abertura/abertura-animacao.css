@@ -1,0 +1,29 @@
+@media screen and (min-width: 0) {
+    .introducao__titulo {
+        overflow: hidden; 
+        border-right: .15em solid var(--background-complementar); 
+        white-space: nowrap; 
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: 
+          typing1 3s steps(40, end),
+          blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing1 {
+        from { width: 0 }
+        to { width: 250px }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: var(--background-complementar); }
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    @keyframes typing1 {
+        from { width: 0 }
+        to { width: 600px }
+    }
+}

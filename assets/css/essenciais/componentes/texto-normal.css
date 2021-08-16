@@ -1,0 +1,8 @@
+.texto-normal {
+    color: var(--texto-cor);
+    font-family: var(--texto-normal-font);
+    font-size: var(--texto-normal-tamanho);
+    font-weight: var(--texto-normal-peso-normal);
+
+    text-decoration: none;
+}
