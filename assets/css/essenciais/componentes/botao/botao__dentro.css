@@ -18,12 +18,12 @@
     .botao__dentro {
         background-color: rgb(255, 255, 255);
 
-        padding: 14px 38px;
+        padding: -1px 38px;
     }
 
     .botao__dentro:hover {
         transition: .5s;
-        padding: 14.25px 38.5px;
+        padding: 1px 38.5px;
         font-size: calc(var(--texto-normal-tamanho) + 2px);
     }
 }
