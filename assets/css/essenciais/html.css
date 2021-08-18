@@ -11,8 +11,7 @@
     @import url('componentes/texto-normal.css');
     @import url('componentes/header.css');
     @import url('componentes/footer/footer.css');
-    @import url('componentes/botao/botao__dentro.css');
-    @import url('componentes/botao/botao__fora.css');
+    @import url('componentes/botao/botao.css');
     @import url('componentes/centralizar-item.css');
 
 

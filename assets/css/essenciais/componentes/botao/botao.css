@@ -1,5 +1,5 @@
 @media screen and (min-width: 0){
-    .botao__dentro {
+    .botao {
         text-decoration: none;
         text-align: center;
 
@@ -8,14 +8,19 @@
 
         color: white;
 
-        padding: 10px 12px;
+        padding: 1rem 3.5rem;
+
+        background: var(--botao-cor);
+        border: 2.5px solid white;
+        border-radius: 15px;
     }
 }
 
 @media screen and (min-width: 1080px) {
-    .botao__dentro:hover {
+    .botao:hover {
         transition: .5s;
-        padding: 12.5px 14.5px;
+        padding: 1.2rem 4rem;
         font-size: calc(var(--texto-normal-tamanho) + 2px);
+        background: var(--botao-cor-pressionado);
     }
 }

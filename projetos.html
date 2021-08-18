@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio | Projetos</title>
+
+    <!-- Ícone do Site -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- CSSs importantes -->
+    <link rel="stylesheet" href="assets/css/essenciais/html.css">
+
+    <!-- CSSs da página-->
+    <link rel="stylesheet" href="assets/css/pages/projetos/projetos.css">
+  </head>
+  <body>
+
+    <header>
+        <div class="header__outsideSideNav">
+            <h2 class="header__titulo texto-titulo"> &#10024; Hideki Portifólio </h2>
+            <ul class="header__itens--outsideNav">
+                <li class="header__item--outsideNav"><a href="index.html" class="header__link--outsideNav texto-normal">Home</a></li>
+                <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal">Sobre</a></li>
+                <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal active">Projetos</a></li>
+                <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal">Contato</a></li>
+            </ul>
+            <span onclick="openNav()"><img src="assets/images/Hamburger_icon.svg.png" class="header__menu-icon"></span>
+        </div>
+
+        <div class="header__sideNav" id="header-sideNav">
+            <ul class="header__itens">
+                <li class="header__item"><a hred="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </a></li>
+                <li class="header__item"><a href="index.html" class="header__link texto-normal">Home</a></li>
+                <li class="header__item"><a href="#" class="header__link texto-normal">Sobre</a></li>
+                <li class="header__item"><a href="#" class="header__link texto-normal">Projetos</a></li>
+                <li class="header__item"><a href="#" class="header__link texto-normal">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+      <article class="projetos__chamada background1 centralizar-item">
+          <h1 class="projetos__chamada--titulo texto-titulo">Projetos do Autor</h1>
+          <h2 class="projetos__chamada--texto texto-normal"> Nessa página você irá conferir alguns projetos do autor, podendo conter: HTML5 & CSS3, Python, C#, JavaScript, etc. O maior foco por enquanto é em sites, em especial o CSS presente neles. </h2>
+          <a href="#" class="botao">Confira!</a>
+      </article>
+
+      <script src="assets/javaScript/header.js"></script>
+    </main>
+
+  </body>
+</html>
