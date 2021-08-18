@@ -2,28 +2,20 @@
     .botao__dentro {
         text-decoration: none;
         text-align: center;
-        
+
         font-size: var(--texto-normal-tamanho);
         font-family: var(--texto-titulo-font);
-    
-        color: var(--texto-cor-selecionado-segundaria);
-    
-        background-color: rgb(255, 255, 255);
-    
+
+        color: white;
+
         padding: 10px 12px;
-    }    
+    }
 }
 
 @media screen and (min-width: 1080px) {
-    .botao__dentro {
-        background-color: rgb(255, 255, 255);
-
-        padding: -1px 38px;
-    }
-
     .botao__dentro:hover {
         transition: .5s;
-        padding: 1px 38.5px;
+        padding: 12.5px 14.5px;
         font-size: calc(var(--texto-normal-tamanho) + 2px);
     }
 }

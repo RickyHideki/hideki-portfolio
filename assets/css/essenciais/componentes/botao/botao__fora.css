@@ -3,23 +3,26 @@
         width: 150px;
         height: 50px;
         background: var(--botao-cor);
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
+
+        border: 2px solid white;
+        border-radius: 25px;
     }
 }
 
 @media screen and (min-width: 1080px) {
     .botao__fora {
-        width: 275px;
-        height: 75px;
+        width: 45%;
+        height: 35%;
     }
 
     .botao__fora:hover{
         transition: .5s;
         background: var(--botao-cor-pressionado);
-        width: 285px;
-        height: 80px;
+        width: 50%;
+        height: 40%;
     }
 }

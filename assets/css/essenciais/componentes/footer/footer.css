@@ -1,0 +1,37 @@
+footer {
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  background-color: white;
+}
+
+.footer__title {
+  font-size: 2rem;
+}
+
+.footer__texto {
+  background: var(--texto-cor-header);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer__lista {
+  display: flex;
+}
+
+.footer__itens {
+  margin: 0 .8rem;
+  font-size: 1.8rem;
+}
+
+.footer__itens a, .footer__nav--itens a {
+  text-decoration: none;
+}
+
+.footer__nav--itens {
+  font-size: 1.2rem;
+}
