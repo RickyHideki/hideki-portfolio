@@ -1,4 +1,16 @@
+@import url("projeto-box.css");
+
 @media screen and (min-width: 0){
+
+  .projetos{
+    border-top: 5px solid white;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .projetos__chamada--texto {
       text-align: center;
       margin: .5rem 1rem 1rem 1rem;

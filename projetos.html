@@ -1,4 +1,4 @@
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,14 +40,73 @@
     </header>
 
     <main>
-      <article class="projetos__chamada background1 centralizar-item">
+      <section class="projetos__chamada background1 centralizar-item">
           <h1 class="projetos__chamada--titulo texto-titulo">Projetos do Autor</h1>
           <h2 class="projetos__chamada--texto texto-normal"> Nessa página você irá conferir alguns projetos do autor, podendo conter: HTML5 & CSS3, Python, C#, JavaScript, etc. O maior foco por enquanto é em sites, em especial o CSS presente neles. </h2>
           <a href="#" class="botao">Confira!</a>
-      </article>
+
+      </section>
+
+      <section class="projetos background2">
+          <article class="projeto-box bg1">
+            <h2 class="projeto__titulo texto-titulo"> Moolc </h2>
+            <div class="projeto__conteudo">
+              <div class="projeto__conteudo--textos">
+                <h3 class="projeto__conteudo--texto texto-normal">Esse site foi feito para me ajudar em alguns cálculos repetitivos na escola, pricipalmente em matemática e física. O site é feito em mobile-first e usa bastante do javaScript para fazer os cálculos.</h3>
+                <label class="projeto__conteudo--texto-barra texto-normal">Status do site...</label>
+                <div class="projeto__progressbar texto-normal"><div style="width: 75%;">75%</div></div>
+              </div>
+              <figure class="projeto__conteudo--imagens">
+                <img src="assets/images/projetos__imagem--1.png" alt="" class="projeto__conteudo--imagem">
+                <img src="assets/images/moolc-imagens2.png" alt="" class="projeto__conteudo--imagem">
+              </figure>
+            </div>
+            <div class="projeto__botoes">
+              <a href="#" class="botao projeto__botao"> Github </a>
+              <a href="#" class="botao projeto__botao"> Site </a>
+            </div>
+          </article>
+      </section>
 
       <script src="assets/javaScript/header.js"></script>
     </main>
+
+    <footer class="centralizar-item">
+      <h2 class="footer__title texto-titulo footer__texto">&#10024; Hideki Portifólio</h1>
+      <ul class="footer__lista centralizar-item">
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Home</a>
+        </li>
+
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Sobre</a>
+          <ul class="footer__nav">
+            <li class="footer__nav--itens centralizar-item"><a href="#">Sobre o autor</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Certificados</a></li>
+          </ul>
+        </li>
+
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Projetos</a>
+          <ul class="footer__nav">
+            <li class="footer__nav--itens centralizar-item"><a href="#">Projetos de sites</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Projetos em python</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Outros</a></li>
+          </ul>
+        </li>
+
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Contato</a>
+          <ul class="footer__nav">
+            <li class="footer__nav--itens centralizar-item"><a href="#">E-mail</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Twitter</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Linkedin</a></li>
+          </ul>
+        </li>
+
+      </ul>
+      <h2 class="footer__title footer__texto texto-titulo">&#10024;</h2>
+    </footer>
 
   </body>
 </html>

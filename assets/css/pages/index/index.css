@@ -6,3 +6,7 @@
 @import url(Projetos/projetos.css);
 
 @import url(contato/contato.css);
+
+.borda {
+  border-top: 5px solid white;
+}

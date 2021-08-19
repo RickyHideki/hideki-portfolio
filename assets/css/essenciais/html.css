@@ -18,7 +18,7 @@
 @media screen and (min-width: 0) {
     :root {
         --background: -webkit-linear-gradient(#9a1fff, #28005C 60%);
-        --background-segundario: -webkit-linear-gradient(#28005C 60%, #9a1fff);
+        --background-segundario: -webkit-linear-gradient(#28005C, #9a1fff 50%, #28005C);
         --background-complementar: rgb(255, 255, 255);
 
         --active: #28005C;
@@ -31,7 +31,6 @@
 
         --texto-cor-selecionado: #a3a3a3;
         --texto-cor-selecionado-segundaria: #71099e;
-
 
         --texto-titulo-font: 'Montserrat', sans-serif;
 
@@ -49,7 +48,10 @@
         --texto-normal-tamanho: 1.25rem;
 
         --botao-cor: -webkit-linear-gradient(145deg, #9a1fff, #28005C);
-        --botao-cor-pressionado: -webkit-linear-gradient(145deg, #28005C, #9a1fff)
+        --botao-cor-pressionado: -webkit-linear-gradient(145deg, #28005C, #9a1fff);
+
+        --background-progressbar: var(--background-complementar);
+        --background-progress: -webkit-linear-gradient(45deg, #9a1fff, #28005C);
 
     }
 }
