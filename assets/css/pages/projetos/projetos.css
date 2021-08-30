@@ -3,7 +3,8 @@
 @media screen and (min-width: 0){
 
   .projetos{
-    border-top: 5px solid white;
+    position: relative;
+
     height: 100vh;
 
     display: flex;

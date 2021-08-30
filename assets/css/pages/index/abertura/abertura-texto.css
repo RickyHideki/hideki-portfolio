@@ -1,12 +1,13 @@
 @media screen and (min-width: 0) {
-    .introducao {  
+    .introducao {
+        position: relative;
         text-align: center;
     }
-   
+
     .introducao__titulo {
        color: var(--texto-cor-segundaria);
        font-size: var(--texto-titulo-tamanho);
-   } 
+   }
 
    .introducao__texto {
         color: var(--texto-cor-segundaria);

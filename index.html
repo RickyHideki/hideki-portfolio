@@ -22,7 +22,7 @@
             <h2 class="header__titulo texto-titulo"> &#10024; Hideki Portifólio </h2>
             <ul class="header__itens--outsideNav">
                 <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal active">Home</a></li>
-                <li class="header__item--outsideNav"><a href="" class="header__link--outsideNav texto-normal">Sobre</a></li>
+                <li class="header__item--outsideNav"><a href="sobre.html" class="header__link--outsideNav texto-normal">Sobre</a></li>
                 <li class="header__item--outsideNav"><a href="projetos.html" class="header__link--outsideNav texto-normal">Projetos</a></li>
                 <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal">Contato</a></li>
             </ul>
@@ -33,7 +33,7 @@
             <ul class="header__itens">
                 <li class="header__item"><a hred="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </a></li>
                 <li class="header__item"><a href="#" class="header__link texto-normal active">Home</a></li>
-                <li class="header__item"><a href="#" class="header__link texto-normal">Sobre</a></li>
+                <li class="header__item"><a href="sobre.html" class="header__link texto-normal">Sobre</a></li>
                 <li class="header__item"><a href="projetos.html" class="header__link texto-normal">Projetos</a></li>
                 <li class="header__item"><a href="#" class="header__link texto-normal">Contato</a></li>
             </ul>
@@ -41,12 +41,19 @@
     </header>
 
     <main>
-        <section class="introducao background1 centralizar-item">
+        <section class="introducao background bg-color1  centralizar-item">
                 <h1 class="introducao__titulo texto-titulo">Bem-vindo!</h1>
                 <h2 class="introducao__texto texto-normal">Este é o meu portifólio, aqui mostrarei meus projetos em html e css, javaScript, Python e outras linguas.</h2>
         </section>
 
-        <section class="sobre background2 centralizar-item borda">
+        <section class="sobre background bg-color2 centralizar-item">
+
+          <div class="shape-bg1">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+          </div>
+
             <article class="sobre__texto">
                 <h2 class="sobre__texto--titulo texto-titulo">Sobre o autor</h2>
                 <h3 class="sobre__texto--texto texto-normal">Me chamo Ricardo Hideki, mas a maioria das pessoas me chamam só de Hideki. Atualmente estou estudando Front-End na Alura e Python Individualmente (além das matérias normais na escola).</h3>
@@ -55,7 +62,14 @@
             <figure class="sobre__imagem" alt="Imagem do autor do portifólio"></figure>
         </section>
 
-        <section class="projetos background1 centralizar-item borda">
+        <section class="projetos background bg-color3 centralizar-item">
+
+          <div class="shape-bg2">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+              </svg>
+          </div>
+
             <figure class="projetos__imagens">
                 <img src="assets/images/projetos__imagem--2.png" alt="Projeto feito no começo do curso da Edutech" class="projetos__imagem">
                 <img src="assets/images/projetos__imagem--1.png" alt="Projeto feito no meio do curso da Edutech" class="projetos__imagem">
@@ -67,12 +81,19 @@
             </article>
         </section>
 
-        <section class="contato background2 centralizar-item borda">
-            <article class="contato__textos centralizar-item">
-                <h2 class="contato__texto--titulo texto-titulo">Contate-me!</h2>
-                <h3 class="contato__texto--texto texto-normal">Caso se sinta interessado de me contatar para auxiliar ou realizar algum projeto, sinta-se livre para me contatar!</h3>
-                <a href="#" class="botao">contate-me!</a>
-            </article>
+        <section class="contato background bg-color4 centralizar-item">
+
+          <div class="shape-bg3">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+              </svg>
+          </div>
+
+          <article class="contato__textos centralizar-item">
+              <h2 class="contato__texto--titulo texto-titulo">Contate-me!</h2>
+              <h3 class="contato__texto--texto texto-normal">Caso se sinta interessado de me contatar para auxiliar ou realizar algum projeto, sinta-se livre para me contatar!</h3>
+              <a href="#" class="botao">contate-me!</a>
+          </article>
         </section>
     </main>
 

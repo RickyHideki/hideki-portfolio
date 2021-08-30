@@ -1,0 +1,13 @@
+@media screen and (min-width: 0) {
+    .introducao__titulo {
+        border-right: .15em solid var(--background-complementar);
+        padding-right: 1rem;
+        animation:
+          blink-caret .75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: var(--background-complementar); }
+    }
+}

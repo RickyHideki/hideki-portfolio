@@ -1,9 +1,10 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio | Projetos</title>
+    <title>Portifólio | Sobre</title>
 
     <!-- Ícone do Site -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/essenciais/html.css">
 
     <!-- CSSs da página-->
-    <link rel="stylesheet" href="assets/css/pages/projetos/projetos.css">
+    <link rel="stylesheet" href="assets/css/pages/sobre/sobre.css">
   </head>
   <body>
 
@@ -21,8 +22,8 @@
             <h2 class="header__titulo texto-titulo"> &#10024; Hideki Portifólio </h2>
             <ul class="header__itens--outsideNav">
                 <li class="header__item--outsideNav"><a href="index.html" class="header__link--outsideNav texto-normal">Home</a></li>
-                <li class="header__item--outsideNav"><a href="sobre.html" class="header__link--outsideNav texto-normal">Sobre</a></li>
-                <li class="header__item--outsideNav"><a href="projeto.html" class="header__link--outsideNav texto-normal active">Projetos</a></li>
+                <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal active">Sobre</a></li>
+                <li class="header__item--outsideNav"><a href="projetos.html" class="header__link--outsideNav texto-normal">Projetos</a></li>
                 <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal">Contato</a></li>
             </ul>
             <span onclick="openNav()"><img src="assets/images/Hamburger_icon.svg.png" class="header__menu-icon"></span>
@@ -31,30 +32,51 @@
         <div class="header__sideNav" id="header-sideNav">
             <ul class="header__itens">
                 <li class="header__item"><a hred="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </a></li>
-                <li class="header__item"><a href="index.html" class="header__link texto-normal">Home</a></li>
-                <li class="header__item"><a href="sobre.html" class="header__link texto-normal">Sobre</a></li>
-                <li class="header__item"><a href="projeto.html" class="header__link texto-normal">Projetos</a></li>
+                <li class="header__item"><a href="#" class="header__link texto-normal">Home</a></li>
+                <li class="header__item"><a href="#" class="header__link texto-normal">Sobre</a></li>
+                <li class="header__item"><a href="projetos.html" class="header__link texto-normal">Projetos</a></li>
                 <li class="header__item"><a href="#" class="header__link texto-normal">Contato</a></li>
             </ul>
         </div>
     </header>
-
     <main>
-      <section class="projetos__chamada background bg-color1 centralizar-item">
-          <h1 class="projetos__chamada--titulo texto-titulo introducao__titulo">Projetos do Autor</h1>
-          <h2 class="projetos__chamada--texto texto-normal"> Nessa página você irá conferir alguns projetos do autor, podendo conter: HTML5 & CSS3, Python, C#, JavaScript, etc. O maior foco por enquanto é em sites, em especial o CSS presente neles. </h2>
-          <a href="#" class="botao">Confira!</a>
-
-      </section>
-
-      <section class="projetos background bg-color2">
-          <div class="shape-bg1">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-            </svg>
+      <section class="background bg-color1 sobre__chamada centralizar-item">
+          <h1 class="sobre__titulo texto-titulo">Sobre o Autor</h1>
+          <div class="sobre__listas">
+            <ul class="sobre__lista dados-pessoais">
+              <li class="sobre__item--titulo texto-titulo">Dados pessoais</li>
+              <li class="sobre__item texto-normal">Ricardo Hideki Tsugikava Junior</li>
+              <li class="sobre__item texto-normal">15 anos - 29/09/2005</li>
+              <li class="sobre__item texto-normal">Telêmaco Borba - Paraná</li>
+              <li class="sobre__item texto-normal"></li>
+            </ul>
+            <ul class="sobre__lista formacao">
+              <li class="sobre__item--titulo texto-titulo">Formação</li>
+              <li class="sobre__item texto-normal">EMEFEI Luiz Carlos Aranha Pacheco | Botucatu - SP</li>
+              <li class="sobre__item texto-normal"></li>
+              <li class="sobre__item texto-normal">Escola Municipal Cívico-Militar São Pedro | Telêmaco Borba - PR</li>
+              <li class="sobre__item texto-normal">Logus Informática | São Paulo - SP</li>
+              <li class="sobre__item texto-normal">Anhanguera | Telêmaco Borba - PR</li>
+              <li class="sobre__item texto-normal">Alura | EAD</li>
+            </ul>
+            <ul class="sobre__lista outros">
+              <li class="sobre__item--titulo texto-titulo">Outros</li>
+              <li class="sobre__item texto-normal">Português (Nativo) | Inglês - Intermediário</li>
+              <li class="sobre__item texto-normal">Desenvolvedor Front-End</li>
+              <li class="sobre__item texto-normal">Programador Iniciante - Python, C#, javascript...</li>
+            </ul>
           </div>
       </section>
 
+      <section class="background bg-color2 sobre__certificados">
+
+        <div class="shape-bg1">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+
+      </section>
     </main>
 
     <footer class="centralizar-item">
@@ -94,7 +116,6 @@
       <h2 class="footer__title footer__texto texto-titulo">&#10024;</h2>
     </footer>
 
-  <script src="assets/javaScript/header.js"></script>
-
+    <script src="assets/javaScript/header.js"></script>
   </body>
 </html>

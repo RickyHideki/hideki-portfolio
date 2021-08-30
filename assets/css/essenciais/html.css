@@ -13,12 +13,16 @@
     @import url('componentes/footer/footer.css');
     @import url('componentes/botao/botao.css');
     @import url('componentes/centralizar-item.css');
+    @import url('componentes/introducao-titulo.css');
+    @import url('componentes/transicoes-shapes.css');
 
 
 @media screen and (min-width: 0) {
     :root {
-        --background: -webkit-linear-gradient(#9a1fff, #28005C 60%);
-        --background-segundario: -webkit-linear-gradient(#28005C, #9a1fff 50%, #28005C);
+        --background: #270840;
+        --background-segundario: #4D0F80;
+        --background-terceiro: #7417BF;
+        --background-quarto: #8B1CE6;
         --background-complementar: rgb(255, 255, 255);
 
         --active: #28005C;

@@ -1,5 +1,6 @@
 @media screen and (min-width: 0) {
     .sobre {
+        position: relative;
         text-align: center;
     }
 
@@ -15,16 +16,16 @@
     .sobre__texto--texto {
         margin: 1rem 0;
     }
-    
+
     .sobre__imagem {
         margin-top: .5rem;
-    
+
         width: 200px;
         height: 200px;
-        
+
         border: 8px solid white;
         border-radius: 200px;
-    
+
         background-image: url(../../../../images/placeholder_sobre--imagem.jpg);
         background-position: center;
         background-size: cover;

@@ -1,5 +1,10 @@
 @media screen and (min-width: 0) {
+    .projetos {
+      position: relative;
+    }
+
     .projetos__textos {
+        position: relative;
         text-align: center;
 
         display: flex;
@@ -17,7 +22,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
         margin-top: .5rem;
     }
 
