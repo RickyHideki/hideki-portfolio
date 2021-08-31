@@ -1,0 +1,32 @@
+@media screen and (min-width: 0){
+  /* Shape 2 */
+
+  .shape-bg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .shape-bg2 svg {
+      position: relative;
+      display: block;
+      width: calc(107% + 1.3px);
+      height: 70px;
+      transform: rotateY(180deg);
+  }
+
+  .shape-bg2 .shape-fill {
+      fill: var(--background-segundario);
+  }
+}
+
+
+@media screen and (min-width: 1080px;){
+  .shape-bg2 svg{
+    height: 140px;
+  }
+}

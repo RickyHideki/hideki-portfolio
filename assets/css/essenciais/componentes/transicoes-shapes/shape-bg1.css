@@ -1,0 +1,28 @@
+@media screen and (min-width: 1080px;){
+  .shape-bg1 svg{
+    height: 140px;
+  }
+}
+
+@media screen and (min-width: 0){
+ .shape-bg1 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+ }
+
+ .shape-bg1 svg {
+   position: relative;
+   display: block;
+   width: calc(107% + 1.3px);
+   height: 70px;
+   transform: rotateY(180deg);
+ }
+
+ .shape-bg1 .shape-fill {
+     fill: var(--background);
+ }
+}
