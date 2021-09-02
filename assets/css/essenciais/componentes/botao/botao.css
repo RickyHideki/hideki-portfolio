@@ -13,13 +13,14 @@
         background: var(--botao-cor);
         border: 2.5px solid white;
         border-radius: 15px;
+
+        transition: 1s;
     }
 }
 
 @media screen and (min-width: 1080px) {
     .botao:hover {
         transition: .5s;
-        padding: 1.2rem 4rem;
         font-size: calc(var(--texto-normal-tamanho) + 2px);
         background: var(--botao-cor-pressionado);
     }

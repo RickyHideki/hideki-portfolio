@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio | Home</title>
+
+    <!-- Ícone do Site -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- CSSs importantes -->
+    <link rel="stylesheet" href="assets/css/essenciais/html.css">
+
+    <!-- CSSs da página-->
+    <link rel="stylesheet" href="assets/css/pages/index/index.css">
+    <link rel="stylesheet" href="assets/css/pages/sobre/sobre.css">
+</head>
+<body>
+
+    <header>
+        <div class="header__outsideSideNav">
+            <h2 class="header__titulo texto-titulo"> &#10024; Hideki Portifólio </h2>
+            <ul class="header__itens--outsideNav">
+                <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal active">Home</a></li>
+                <li class="header__item--outsideNav"><a href="sobre.html" class="header__link--outsideNav texto-normal">Sobre</a></li>
+                <li class="header__item--outsideNav"><a href="projetos.html" class="header__link--outsideNav texto-normal">Projetos</a></li>
+                <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal">Contato</a></li>
+            </ul>
+            <span onclick="openNav()"><img src="assets/images/Hamburger_icon.svg.png" class="header__menu-icon"></span>
+        </div>
+
+        <div class="header__sideNav" id="header-sideNav">
+            <ul class="header__itens">
+                <li class="header__item"><a hred="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </a></li>
+                <li class="header__item"><a href="#" class="header__link texto-normal active">Home</a></li>
+                <li class="header__item"><a href="sobre.html" class="header__link texto-normal">Sobre</a></li>
+                <li class="header__item"><a href="projetos.html" class="header__link texto-normal">Projetos</a></li>
+                <li class="header__item"><a href="#" class="header__link texto-normal">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+      <section class="introducao background bg-color1  centralizar-item">
+          <article class="certificado__box">
+
+            <img class="certificado__img" src="assets/images/icons-certificados/flexbox.png">
+            <div class="certificado__textos">
+                <h2 class="certificado__nome texto-titulo">Flexbox: Posicione elementos na tela</h2>
+                <h3 class="certificado__data certificado__textos-principais texto-normal">27 de Maio de 2021</h3>
+                <h3 class="certificado__instituicao certificado__textos-principais texto-normal">Alura</h3>
+              <h3 class="certificado__descricao certificado__texto texto-normal">Certificado referente ao curos de flexbox sobre posicionamento de elementos no site, iniciado no dia 25/05/2021 e terminado no dia 27/05/2021 com uma carga horário estimada de 9 horas. </h3>
+              <div class="certificado__botoes">
+                <a href="#" class="certificado__botao botao"> Ver certificado </a>
+                <a href="#" class="certificado__botao botao"> Ver imagem </a>
+              </div>
+            </div>
+
+          </article>
+      </section>
+    </main>
+
+    <footer class="centralizar-item">
+      <h2 class="footer__title texto-titulo footer__texto">&#10024; Hideki Portifólio</h2>
+      <ul class="footer__lista centralizar-item">
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Home</a>
+        </li>
+
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Sobre</a>
+          <ul class="footer__nav">
+            <li class="footer__nav--itens centralizar-item"><a href="#">Sobre o autor</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Certificados</a></li>
+          </ul>
+        </li>
+
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Projetos</a>
+          <ul class="footer__nav">
+            <li class="footer__nav--itens centralizar-item"><a href="#">Projetos de sites</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Projetos em python</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Outros</a></li>
+          </ul>
+        </li>
+
+        <li class="footer__itens texto-normal footer__texto centralizar-item">
+          <a href="#">Contato</a>
+          <ul class="footer__nav">
+            <li class="footer__nav--itens centralizar-item"><a href="#">E-mail</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Twitter</a></li>
+            <li class="footer__nav--itens centralizar-item"><a href="#">Linkedin</a></li>
+          </ul>
+        </li>
+      </ul>
+      <h2 class="footer__title footer__texto texto-titulo">&#10024;</h2>
+    </footer>
+
+    <script src="assets/javaScript/header.js"> </script>
+
+</body>
+</html>

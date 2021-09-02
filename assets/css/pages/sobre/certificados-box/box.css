@@ -1,0 +1,36 @@
+@media screen and (min-width: 0){
+  .certificado__box {
+    margin: 2.5rem 0;
+
+    width: 75%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 5px solid var(--background-complementar);
+    border-radius: 15px;
+    padding: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 1080px){
+  .certificado__box {
+    flex-direction: row;
+
+    padding: 2rem;
+
+    transition: 1s;
+  }
+
+  .certificado__textos{
+    margin-left: 1.5rem;
+  }
+
+  .certificado__box:hover{
+    transition: 1s;
+    background-color: rgba(192, 192, 192, .25);
+  }
+}

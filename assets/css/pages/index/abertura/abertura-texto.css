@@ -5,14 +5,19 @@
     }
 
     .introducao__titulo {
-       color: var(--texto-cor-segundaria);
+       color: var(--texto-cor);
        font-size: var(--texto-titulo-tamanho);
    }
 
    .introducao__texto {
-        color: var(--texto-cor-segundaria);
+      color: var(--texto-cor);
        font-size: var(--texto-normal-tamanho);
        margin: 0 1rem;
+   }
+
+   .introducao__texto--aviso{
+     margin-top: 1rem;
+     font-size: 1rem;
    }
 }
 

@@ -1,3 +1,10 @@
+@import url("certificados-box/tamanhos.css");
+@import url("certificados-box/box.css");
+
+.sobre__certificados--titulo {
+  margin-top: 5rem;
+}
+
 .sobre__certificados {
   position: relative;
 }
