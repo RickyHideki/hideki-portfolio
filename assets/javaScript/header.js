@@ -4,4 +4,4 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("header-sideNav").style.width = "0";
-} 
+}
