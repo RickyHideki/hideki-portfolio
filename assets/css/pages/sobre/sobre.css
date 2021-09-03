@@ -25,11 +25,21 @@
   .sobre__item--titulo {
     margin-left: 1.5rem;
     text-align: left;
+    font-size: 2.5rem;
+  }
+
+  .sobre__item {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (min-width: 1900px){
+  .sobre__item--titulo {
     font-size: 3rem;
   }
 
   .sobre__item {
     font-size: 2rem;
   }
-
 }
