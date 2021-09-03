@@ -1,0 +1,36 @@
+@media screen and (min-width: 0){
+  .projeto__nome {
+    font-size: 3rem;
+  }
+
+  .projeto__imagem{
+    margin: 1rem 0;
+    width: 125px;
+  }
+
+  .projeto__data {
+    font-size: 1.5rem;
+  }
+
+  .projeto__descricao {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    text-align: justify;
+  }
+
+  .projeto__status {
+    margin: 1.5rem;
+  }
+
+  .projeto__botao {
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1080px){
+  .projeto__botao:hover{
+    padding: .5rem 1rem;
+    font-size: 1.75rem;
+  }
+}

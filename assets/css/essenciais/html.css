@@ -54,7 +54,7 @@
         --botao-cor-pressionado: #5123CC;
 
         --background-progressbar: var(--background-complementar);
-        --background-progress: -webkit-linear-gradient(45deg, #9a1fff, #28005C);
+        --background-progress: var(--botao-cor-pressionado);
 
     }
 }

@@ -1,5 +1,5 @@
 .background {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -8,8 +8,6 @@
 }
 
 .bg-color2 {
-    height: 100vh;
-    width: 100%;
     background: var(--background-segundario);
 }
 
