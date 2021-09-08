@@ -16,6 +16,10 @@
     @import url('componentes/introducao-titulo.css');
     @import url('componentes/transicoes-shapes.css');
 
+    /* Modalbox contato */
+    @import url('componentes/contato/contato-style.css');
+    @import url('componentes/contato/contato-modalBox.css');
+
 
 @media screen and (min-width: 0) {
     :root {

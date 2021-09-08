@@ -21,6 +21,10 @@
         font-size: 2rem;
     }
 
+    .contato__botao {
+      cursor: pointer;
+    }
+
     .header__itens--outsideNav{
         display: none;
     }
@@ -59,7 +63,7 @@
         border-right: 2px solid var(--active);
         padding-right: 16px;
     }
-    
+
     .header__link--outsideNav {
         font-size: 2rem;
 

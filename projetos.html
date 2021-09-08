@@ -23,7 +23,7 @@
                 <li class="header__item--outsideNav"><a href="index.html" class="header__link--outsideNav texto-normal">Home</a></li>
                 <li class="header__item--outsideNav"><a href="sobre.html" class="header__link--outsideNav texto-normal">Sobre</a></li>
                 <li class="header__item--outsideNav"><a href="projeto.html" class="header__link--outsideNav texto-normal active">Projetos</a></li>
-                <li class="header__item--outsideNav"><a href="#" class="header__link--outsideNav texto-normal">Contato</a></li>
+                <li class="header__item--outsideNav"><a onclick="abrirModal()" class="header__link--outsideNav contato__botao texto-normal">Contato</a></li>
             </ul>
             <span onclick="openNav()"><img src="assets/images/Hamburger_icon.svg.png" class="header__menu-icon"></span>
         </div>
@@ -34,7 +34,7 @@
                 <li class="header__item"><a href="index.html" class="header__link texto-normal">Home</a></li>
                 <li class="header__item"><a href="sobre.html" class="header__link texto-normal">Sobre</a></li>
                 <li class="header__item"><a href="#" class="header__link texto-normal">Projetos</a></li>
-                <li class="header__item"><a href="#" class="header__link texto-normal">Contato</a></li>
+                <li class="header__item"><a onclick="abrirModal()" class="header__link texto-normal">Contato</a></li>
             </ul>
         </div>
     </header>
@@ -98,6 +98,35 @@
 
       </section>
 
+      <section class="contato-ModalBox" id="contato">
+        <article class="contato-conteudo">
+          <header class="contato-header">
+              <div class="contato-header__textos">
+                <h3 class="contato-fechar" onclick="fecharModal()">&times;</span>
+                <h2 class="contato-titulo texto-titulo">Formas de contato</h2>
+                <h3 class="contato-subtitulo texto-normal">Veja a seguir a formas de contatar o autor</h3>
+              </div>
+          </header>
+
+          <main class="contato-main">
+              <div class="contato-conteudo__geral">
+                  <img src="assets/images/contato-icons/email-icon.png" alt="Ícone de carta que representa o email" class="contato-conteudo__icon">
+                  <h3 class="contato-conteudo__texto texto-normal">*********@gmail.com</h3>
+              </div>
+
+              <div class="contato-conteudo__geral">
+                <img src="assets/images/contato-icons/twitter-logo.png" alt="" class="contato-conteudo__icon">
+                <h3 class="contato-conteudo__texto texto-normal">@*********</h3>
+              </div>
+
+              <div class="contato-conteudo__geral">
+                <img src="assets/images/contato-icons/linkedin-logo.png" alt="" class="contato-conteudo__icon">
+                <h3 class="contato-conteudo__texto texto-normal">************</h3>
+              </div>
+          </main>
+        </article>
+      </section>
+
     </main>
 
     <footer class="centralizar-item">
@@ -125,9 +154,9 @@
         </li>
 
         <li class="footer__itens texto-normal footer__texto centralizar-item">
-          <a href="#">Contato</a>
+          <a onclick="abrirModal()" class="contato__botao">Contato</a>
           <ul class="footer__nav">
-            <li class="footer__nav--itens centralizar-item"><a href="#">E-mail</a></li>
+            <li class="footer__nav--itens centralizar-item"><a onclick="abrirModal()"  class="contato__botao">E-mail</a></li>
             <li class="footer__nav--itens centralizar-item"><a href="#">Twitter</a></li>
             <li class="footer__nav--itens centralizar-item"><a href="#">Linkedin</a></li>
           </ul>
@@ -138,6 +167,7 @@
     </footer>
 
   <script src="assets/javaScript/header.js"></script>
+  <script src="assets/javaScript/contato.js" type="text/javascript"> </script>
 
   </body>
 </html>
