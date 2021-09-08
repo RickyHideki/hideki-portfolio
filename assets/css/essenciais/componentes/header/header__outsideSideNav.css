@@ -19,6 +19,9 @@
         -webkit-text-fill-color: transparent;
 
         font-size: 2rem;
+
+        -webkit-touch-callout: none;
+        user-select: none;
     }
 
     .contato__botao {
